@@ -6,7 +6,7 @@ from movies.logger import get_logger
 from skafossdk import *
 
 
-# Grab some environment variables using os module
+# Grab some environment variables using os module!
 if 'MOVIE_DB' in os.environ:
   api_key = os.environ['MOVIE_DB']
 else:
